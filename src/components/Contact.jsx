@@ -68,6 +68,8 @@ function Contact() {
             className="w-[100%] mt-2 border-2 border-[#ddd]  rounded-2xl outline-none px-3 py-2"
             type="tel"
             id="mobile"
+            maxLength="10"
+            minLength="10"
             placeholder="Enter Your mobile no"
             name="number"
             required
